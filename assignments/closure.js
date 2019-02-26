@@ -1,6 +1,15 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function robot_call(){
+  let voice = 'BEEP';
+  function robotAnswer(){
+    console.log(`one robot calls and says ${voice} the other answers and says BOOP`);
+  };
+  robotAnswer();
+}
+robot_call();
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
