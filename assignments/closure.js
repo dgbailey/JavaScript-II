@@ -16,8 +16,13 @@ robot_call();
 
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
+  let total = 0;
+  function (total){++total;console.log(total);}
+  
+  
   // Return a function that when invoked increments and returns a counter variable.
 };
+counter();
 // Example usage: const newCounter = counter();
 // newCounter(); // 1
 // newCounter(); // 2
