@@ -20,13 +20,12 @@ const counter = () => {
   function up(){
     ++count;
     console.log(count);
-    
   }
-  return up();
+  return up;
   // Return a function that when invoked increments and returns a counter variable.
 };
 
- newCounter = counter;
+ const newCounter = counter();
  
 
  newCounter();
